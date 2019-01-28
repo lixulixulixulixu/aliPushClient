@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-aliPushClient" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>aliPushClient</name>
+	<js-module name="aliPushClient" src="www/aliPushClient.js">
+		<clobbers target="cordova.plugins.aliPushClient" />
+	</js-module>
+	<preference name="MIID" default="" />
+	<preference name="MIKEY" default="" />
+	<preference name="APPKEY" />
+	<preference name="APPSECRET" />
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="aliPushClient">
+				<param name="ios-package" value="aliPushClient" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/aliPushClient.m" />
+	</platform>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="aliPushClient">
+				<param name="android-package" value="cn.abrain.ldc.palm.aliPushClient" />
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+		<config-file parent="application" target="AndroidManifest.xml">
+			<meta-data android:name="com.alipush.miid" android:value="$MIID" />
+			<meta-data android:name="com.alipush.mikey" android:value="$MIKEY" />
+			<meta-data android:name="com.alibaba.app.appkey" android:value="$APPKEY" />
+			<meta-data android:name="com.alibaba.app.appsecret" android:value="$APPSECRET" />
+			<receiver android:name="cn.abrain.ldc.palm.MyMessageReceiver" android:exported="false">
+				<!-- 为保证receiver安全，建议设置不可导出，如需对其他应用开放可通过android：permission进行限制 -->
+				<intent-filter> <action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" /> </intent-filter>
+				<intent-filter> <action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" /> </intent-filter>
+				<intent-filter> <action android:name="com.alibaba.sdk.android.push.RECEIVE" /> </intent-filter>
+			</receiver>
+		</config-file>
+		<framework src="build.gradle" custom="true" type="gradleReference" />
+		<source-file src="src/android/cn.abrain.ldc.palm/aliPushClient.java" target-dir="src/cn/abrain/ldc/palm" />
+		<source-file src="src/android/cn.abrain.ldc.palm/MyMessageReceiver.java" target-dir="src/cn/abrain/ldc/palm" />
+	</platform>
+</plugin>

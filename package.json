@@ -1,0 +1,25 @@
+{
+
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-aliPushClient",
+    "platforms": [
+      "android","ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "this is a notificationpush",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=5.0.0"
+    }
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-aliPushClient",
+  "repository": {
+    "type": "git",
+    "url": "git+http://39.106.219.154:8180/scm/git/aliPushClient"
+  },
+  "version": "1.0.1"
+}
