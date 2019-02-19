@@ -17,6 +17,7 @@
 		<source-file src="src/ios/aliPushClient.m" />
 	</platform>
 	<platform name="android">
+		<hook type="after_prepare" src="www/android_socket.js" />
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="aliPushClient">
 				<param name="android-package" value="cn.abrain.ldc.palm.aliPushClient" />
@@ -24,8 +25,8 @@
 			</feature>
 		</config-file>
 		<config-file parent="application" target="AndroidManifest.xml">
-			<meta-data android:name="com.alipush.miid" android:value="$MIID" />
-			<meta-data android:name="com.alipush.mikey" android:value="$MIKEY" />
+			<meta-data android:name="com.alipush.miid" android:value="\$MIID" />
+			<meta-data android:name="com.alipush.mikey" android:value="\$MIKEY" />
 			<meta-data android:name="com.alibaba.app.appkey" android:value="$APPKEY" />
 			<meta-data android:name="com.alibaba.app.appsecret" android:value="$APPSECRET" />
 			<receiver android:name="cn.abrain.ldc.palm.MyMessageReceiver" android:exported="false">
@@ -38,5 +39,6 @@
 		<framework src="build.gradle" custom="true" type="gradleReference" />
 		<source-file src="src/android/cn.abrain.ldc.palm/aliPushClient.java" target-dir="src/cn/abrain/ldc/palm" />
 		<source-file src="src/android/cn.abrain.ldc.palm/MyMessageReceiver.java" target-dir="src/cn/abrain/ldc/palm" />
+		<source-file src="src/android/cn.abrain.ldc.palm/MainApplication.java" target-dir="src/cn/abrain/ldc/palm" />
 	</platform>
 </plugin>
