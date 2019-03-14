@@ -4,7 +4,7 @@
   "cordova": {
     "id": "cordova-plugin-aliPushClient",
     "platforms": [
-      "android","ios"
+      "android"
     ]
   },
   "deprecated": false,
@@ -19,7 +19,7 @@
   "name": "cordova-plugin-aliPushClient",
   "repository": {
     "type": "git",
-    "url": "git+http://39.106.219.154:8180/scm/git/aliPushClient"
+    "url": "git+https://github.com/lixulixulixulixu/aliPushClient.git"
   },
   "version": "1.0.1"
 }

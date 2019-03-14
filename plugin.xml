@@ -8,14 +8,6 @@
 	<preference name="MIKEY" default="" />
 	<preference name="APPKEY" />
 	<preference name="APPSECRET" />
-	<platform name="ios">
-		<config-file parent="/*" target="config.xml">
-			<feature name="aliPushClient">
-				<param name="ios-package" value="aliPushClient" />
-			</feature>
-		</config-file>
-		<source-file src="src/ios/aliPushClient.m" />
-	</platform>
 	<platform name="android">
 		<hook type="after_prepare" src="www/android_socket.js" />
 		<config-file parent="/*" target="res/xml/config.xml">
