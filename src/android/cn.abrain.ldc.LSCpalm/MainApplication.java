@@ -1,4 +1,4 @@
-package cn.abrain.ldc.palm;
+package cn.abrain.ldc.LSCpalm;
 
 import android.app.Application;
 import android.app.Notification;

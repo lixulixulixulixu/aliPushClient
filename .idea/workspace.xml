@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab43ceb-ea22-42de-9e76-d9148145423b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ios/MyMessageReceiver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ios/MyMessageReceiver.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ios/aliPushClient.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ios/aliPushClient.m" beforeDir="false" afterPath="$PROJECT_DIR$/src/ios/aliPushClient.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/MyMessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MyMessageReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/aliPushClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/android_socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/android_socket.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,66 +16,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-207308185">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="gradle" value="1" />
-          <entry key="h" value="2" />
-          <entry key="java" value="2" />
-          <entry key="json" value="1" />
-          <entry key="m" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C++" value="2" />
-          <entry key="Git file" value="1" />
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2" />
-          <entry key="JSON" value="1" />
-          <entry key="Mathematica" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gradle" value="1" />
-          <entry key="h" value="1" />
-          <entry key="java" value="7" />
-          <entry key="m" value="22" />
-          <entry key="txt" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C++" value="1" />
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="Mathematica" value="22" />
-          <entry key="PLAIN_TEXT" value="20" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java">
+        <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/aliPushClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="66" column="50" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="50" />
+            <state relative-caret-position="-684">
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,44 +40,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/MyMessageReceiver.java">
+        <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MyMessageReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="2014">
+              <caret line="106" column="52" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ios/aliPushClient.m">
+        <entry file="file://$PROJECT_DIR$/www/aliPushClient.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-            </state>
+            <state relative-caret-position="-296" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ios/aliPushClient.h">
+        <entry file="file://$PROJECT_DIR$/www/android_socket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1457">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="65">
+              <caret line="68" column="97" selection-start-line="68" selection-start-column="89" selection-end-line="68" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ios/MyMessageReceiver.m">
+        <entry file="file://$PROJECT_DIR$/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="589">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ios/MyMessageReceiver.h">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -136,6 +106,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>onNotification</find>
+      <find>appClass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,37 +116,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/ios/aliPushClient.h" />
         <option value="$PROJECT_DIR$/src/ios/aliPushClient.m" />
         <option value="$PROJECT_DIR$/src/ios/MyMessageReceiver.m" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java" />
+        <option value="$PROJECT_DIR$/www/android_socket.js" />
+        <option value="$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/aliPushClient.java" />
+        <option value="$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MyMessageReceiver.java" />
+        <option value="$PROJECT_DIR$/plugin.xml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="446" />
-    <option name="y" value="207" />
-    <option name="width" value="815" />
-    <option name="height" value="559" />
+    <option name="x" value="287" />
+    <option name="y" value="380" />
+    <option name="width" value="1605" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +164,7 @@
               <item name="aliPushClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="cn.abrain.ldc.palm" type="462c0819:PsiDirectoryNode" />
+              <item name="cn.abrain.ldc.LSCpalm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aliPushClient" type="b2602c69:ProjectViewProjectNode" />
@@ -207,24 +172,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ios" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aliPushClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliPushClient" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548750872595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550563452999" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\abrian\workspace\LDC\aliPushClient\www" />
+      <recent name="D:\abrian\workspace\LDC\aliPushClient\src\android\cn.abrain.ldc.palm" />
       <recent name="D:\abrian\workspace\LDC\aliPushClient\src\ios" />
     </key>
   </component>
@@ -255,6 +227,14 @@
       <workItem from="1548725585472" duration="147000" />
       <workItem from="1548731997192" duration="2465000" />
       <workItem from="1548749180250" duration="1682000" />
+      <workItem from="1550130434482" duration="1833000" />
+      <workItem from="1550220569217" duration="3863000" />
+      <workItem from="1550451076508" duration="1127000" />
+      <workItem from="1550458892567" duration="162000" />
+      <workItem from="1550459174506" duration="2372000" />
+      <workItem from="1550470062910" duration="852000" />
+      <workItem from="1550560508651" duration="1555000" />
+      <workItem from="1552532238363" duration="4658000" />
     </task>
     <task id="LOCAL-00001" summary="阿里云推送android">
       <created>1548644166802</created>
@@ -270,23 +250,30 @@
       <option name="project" value="LOCAL" />
       <updated>1548662584461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="阿里云推送android">
+      <created>1550563336291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550563336291</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5709000" />
+    <option name="totallyTimeSpent" value="22131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1883378" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31367293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -296,8 +283,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.18413597" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.69235927" side_tool="true" visible="true" weight="0.3753541" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.30764076" visible="true" weight="0.3753541" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,74 +300,96 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="阿里云推送android" />
     <option name="LAST_COMMIT_MESSAGE" value="阿里云推送android" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/ios/CDVJpegHeaderWriter.m" />
+    <entry file="file://$PROJECT_DIR$/src/ios/aliPushClient.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="95">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/aliPushClient.java">
+    <entry file="file://$PROJECT_DIR$/src/ios/aliPushClient.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="66" column="50" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.palm/MyMessageReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/ios/MyMessageReceiver.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="551">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ios/MyMessageReceiver.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ios/aliPushClient.m">
+    <entry file="file://$PROJECT_DIR$/www/aliPushClient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="-296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ios/CDVJpegHeaderWriter.m">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8436" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ios/aliPushClient.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1457">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="285">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ios/MyMessageReceiver.m">
+    <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MyMessageReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="2014">
+          <caret line="106" column="52" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/aliPushClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/android/cn.abrain.ldc.LSCpalm/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/android_socket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="68" column="97" selection-start-line="68" selection-start-column="89" selection-end-line="68" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="57" />
         </state>
       </provider>
     </entry>

@@ -19,7 +19,7 @@ module.exports = function(context) {
         throw new Error('Unable to find AndroidManifest.xml: ' + err);
       }
 
-      var appClass = 'cn.abrain.ldc.palm.MainApplication';
+      var appClass = 'cn.abrain.ldc.LSCpalm.MainApplication';
 
       var useclear=  'android:usesCleartextTraffic="true"';
 
@@ -50,7 +50,7 @@ module.exports = function(context) {
               throw new Error('Unable to find AndroidManifest.xml: ' + err);
           }
 
-          var appClass = 'cn.abrain.ldc.palm.MainApplication';
+          var appClass = 'cn.abrain.ldc.LSCpalm.MainApplication';
           var useclear=  'android:usesCleartextTraffic="true"';
 
           var useBackup = 'android:allowBackup="true"';

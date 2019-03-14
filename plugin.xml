@@ -20,7 +20,7 @@
 		<hook type="after_prepare" src="www/android_socket.js" />
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="aliPushClient">
-				<param name="android-package" value="cn.abrain.ldc.palm.aliPushClient" />
+				<param name="android-package" value="cn.abrain.ldc.LSCpalm.aliPushClient" />
 				<param name="onload" value="true" />
 			</feature>
 		</config-file>
@@ -29,7 +29,7 @@
 			<meta-data android:name="com.alipush.mikey" android:value="\$MIKEY" />
 			<meta-data android:name="com.alibaba.app.appkey" android:value="$APPKEY" />
 			<meta-data android:name="com.alibaba.app.appsecret" android:value="$APPSECRET" />
-			<receiver android:name="cn.abrain.ldc.palm.MyMessageReceiver" android:exported="false">
+			<receiver android:name="cn.abrain.ldc.LSCpalm.MyMessageReceiver" android:exported="false">
 				<!-- 为保证receiver安全，建议设置不可导出，如需对其他应用开放可通过android：permission进行限制 -->
 				<intent-filter> <action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" /> </intent-filter>
 				<intent-filter> <action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" /> </intent-filter>
@@ -37,8 +37,8 @@
 			</receiver>
 		</config-file>
 		<framework src="build.gradle" custom="true" type="gradleReference" />
-		<source-file src="src/android/cn.abrain.ldc.palm/aliPushClient.java" target-dir="src/cn/abrain/ldc/palm" />
-		<source-file src="src/android/cn.abrain.ldc.palm/MyMessageReceiver.java" target-dir="src/cn/abrain/ldc/palm" />
-		<source-file src="src/android/cn.abrain.ldc.palm/MainApplication.java" target-dir="src/cn/abrain/ldc/palm" />
+		<source-file src="src/android/cn.abrain.ldc.LSCpalm/aliPushClient.java" target-dir="src/cn/abrain/ldc/LSCpalm" />
+		<source-file src="src/android/cn.abrain.ldc.LSCpalm/MyMessageReceiver.java" target-dir="src/cn/abrain/ldc/LSCpalm" />
+		<source-file src="src/android/cn.abrain.ldc.LSCpalm/MainApplication.java" target-dir="src/cn/abrain/ldc/LSCpalm" />
 	</platform>
 </plugin>

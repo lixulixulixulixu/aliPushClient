@@ -1,4 +1,4 @@
-package cn.abrain.ldc.palm;
+package cn.abrain.ldc.LSCpalm;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,6 @@ import android.util.Log;
 
 import com.alibaba.sdk.android.push.MessageReceiver;
 import com.alibaba.sdk.android.push.notification.CPushMessage;
-import cn.abrain.ldc.palm.aliPushClient;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.PluginResult;
